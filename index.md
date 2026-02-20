@@ -44,30 +44,6 @@ It looks like you are setting up a website for a Software Carpentry curriculum b
 {% endunless %}
 {% endif %}
 
-{% comment %}
-EVENTBRITE
-
-This block includes the Eventbrite registration widget if
-'eventbrite' has been set in the header.  You can delete it if you
-are not using Eventbrite, or leave it in, since it will not be
-displayed if the 'eventbrite' field in the header is not set.
-{% endcomment %}
-{% if page.eventbrite %}
-<strong>Some adblockers block the registration window. If you do not see the
-  registration box below, please check your adblocker settings.</strong>
-<div id="eventbrite-widget-container"></div>
-<script src="https://www.eventbrite.com/static/widgets/eb_widgets.js"></script>
-<script type="text/javascript">
-    window.EBWidgets.createWidget({
-        // Required
-        widgetType: 'checkout',
-        eventId: {{page.eventbrite}},
-        iframeContainerId: 'eventbrite-widget-container',
-    });
-</script>
-{% endif %}
-
-
 <h2 id="general">General Information</h2>
 
 {% comment %}
@@ -78,7 +54,7 @@ the pitch.
 {% endcomment %}
 
 <p>
-<strong><a href="https://carpentries.org">The Carpentries</a></strong> project comprises the <a
+"<strong><a href="https://libcal.unm.edu/event/16304008">REGISTER FOR THIS LUNCH INCLUDED WORKSHOP HERE</a></strong>"      <strong><a href="https://carpentries.org">The Carpentries</a></strong> project comprises the <a
 href="{{site.swc_site}}">Software Carpentry</a>, <a href="{{site.dc_site}}">Data Carpentry</a>, and
 <a href="{{site.lc_site}}">Library Carpentry</a> communities of Instructors, Trainers, Maintainers,
 helpers, and supporters who share a mission to teach foundational computational and data science
@@ -86,7 +62,7 @@ skills to researchers.
 <p align="center">
   <em>
   <strong>Want to learn more and stay engaged with The Carpentries?</strong> Carpentries Clippings is The Carpentries' biweekly newsletter, where we share community news, community job postings, and more.
-Sign up to receive future editions and read our full archive: <a href="https://carpentries.org/newsletter/">https://carpentries.org/newsletter/</a>
+Sign up to receive future editions and read our full archive: <a href="https://carpentries.org/newsletter/">https://carpentries.org/newsletter/</a>    
   </em>
 </p>
 {% if site.carpentry == "swc" %}
